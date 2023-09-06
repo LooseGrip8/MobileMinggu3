@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Table_Layout"
+    android:layout_marginHorizontal="10dp">
+
+    <TableRow
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="#890000"
+            android:textSize="25dp"
+            android:textStyle="bold">
+        </TextView>
+
+        </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Username"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/ScreenName"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Password"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1">
+        </EditText>
+
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/Save"
+            android:text="Submit"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </TableRow>
+
+</TableLayout>
