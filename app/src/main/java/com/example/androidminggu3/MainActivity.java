@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 BtnFrame.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        startActivity(new Intent(MainActivity.this, Relative_Layout.class));
+                        startActivity(new Intent(MainActivity.this, Frame_Layout.class));
                     }
                 });
                 BtnTable.setOnClickListener(new View.OnClickListener() {
