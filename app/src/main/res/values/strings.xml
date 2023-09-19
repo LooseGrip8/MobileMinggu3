@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Android Minggu 3</string>
+
+    <string-array name="countries_array">
+        <item>afghanistan</item>
+        <item>albania</item>
+        <item>algeria</item>
+        <item>america</item>
+        <item>andorra</item>
+        <item>Barbuda</item>
+        <item>Bahrain</item>
+        <item>bangladesh</item>
+        <item>belarus</item>
+        <item>belgium</item>
+        <item>canada</item>
+        <item>chile</item>
+        <item>cambodia</item>
+        <item>cameroon</item>
+        <item>cayman islands</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominician</item>
+    </string-array>
+    
 </resources>
